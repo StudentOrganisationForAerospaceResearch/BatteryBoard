@@ -3,4 +3,6 @@
   (lib (name BatCharge)(type KiCad)(uri "$(KIPRJMOD)/BatCharge.pretty")(options "")(descr ""))
   (lib (name JackConnectors)(type Github)(uri https://github.com/imciner2/KiCad-Libraries/tree/master/modules/Connectors.pretty)(options "")(descr ""))
   (lib (name BJCs)(type KiCad)(uri C:/Users/tiger/Documents/PCB/BatteryCharger/KiCad-Libraries-master/modules/Connectors.pretty)(options "")(descr ""))
+  (lib (name TerminalBlock_Phoenix)(type KiCad)(uri C:/Users/tiger/Documents/PCB/Libraries/TerminalBlock_Phoenix.pretty)(options "")(descr ""))
+  (lib (name Connector_Molex)(type KiCad)(uri C:/Users/tiger/Documents/PCB/Libraries/Connector_Molex.pretty)(options "")(descr ""))
 )
