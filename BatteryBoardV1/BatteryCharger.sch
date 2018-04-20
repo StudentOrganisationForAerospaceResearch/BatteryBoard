@@ -181,11 +181,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Battery Charger Circuit"
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Student Organization for Aerospace Research"
+Comment1 "By: Prithvi Shankara and Evan Wilkinson"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -261,7 +261,7 @@ L R R1
 U 1 1 5A5FF7C7
 P 7000 3750
 F 0 "R1" V 7080 3750 50  0000 C CNN
-F 1 "1.185K" V 7000 3750 50  0000 C CNN
+F 1 "3K" V 7000 3750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6930 3750 50  0001 C CNN
 F 3 "" H 7000 3750 50  0001 C CNN
 	1    7000 3750
@@ -315,16 +315,16 @@ $Comp
 L Screw_Terminal_01x02 JOut1
 U 1 1 5A8B62D4
 P 5875 5400
-F 0 "JOut1" H 5875 5500 50  0000 C CNN
+F 0 "JOut1" V 5875 5575 50  0000 C CNN
 F 1 "Bat.Terms." V 5975 5350 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 5875 5400 50  0001 C CNN
 F 3 "" H 5875 5400 50  0001 C CNN
 	1    5875 5400
 	0    -1   -1   0   
 $EndComp
-Text Label 5725 5575 2    60   ~ 0
+Text Label 5800 5600 2    60   ~ 0
 VBAT+
-Text Label 6325 5500 1    60   ~ 0
+Text Label 6275 5600 2    60   ~ 0
 VBAT-
 $Comp
 L VDD #PWR06
@@ -373,18 +373,18 @@ $EndComp
 $Comp
 L Q_NMOS_GSD Q1
 U 1 1 5A9AF155
-P 5925 6150
-F 0 "Q1" H 6125 6200 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 6125 6100 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6125 6250 50  0001 C CNN
-F 3 "" H 5925 6150 50  0001 C CNN
-	1    5925 6150
-	0    1    1    0   
+P 6500 5700
+F 0 "Q1" V 6800 5650 50  0000 L CNN
+F 1 "Q_NMOS_GSD" V 6725 5450 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6700 5800 50  0001 C CNN
+F 3 "" H 6500 5700 50  0001 C CNN
+	1    6500 5700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5950 4550 5950 4875
 Wire Wire Line
-	5950 4750 6325 4750
+	5950 4750 7025 4750
 Connection ~ 5950 4750
 Wire Wire Line
 	4800 4125 5400 4125
@@ -438,11 +438,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 3075 4800 3750
 Connection ~ 4800 3750
-Connection ~ 6775 4125
-Wire Wire Line
-	6325 4750 6325 5600
-Wire Wire Line
-	6325 5600 5975 5600
 Wire Wire Line
 	4800 4125 4800 5600
 Wire Wire Line
@@ -465,24 +460,14 @@ Connection ~ 2050 3850
 Wire Wire Line
 	2325 4775 2150 4775
 Wire Wire Line
-	5925 5950 5925 5800
+	5975 5600 6300 5600
 Wire Wire Line
-	5925 5800 5750 5800
+	7025 4750 7025 5600
 Wire Wire Line
-	5750 5800 5750 5600
-Connection ~ 5750 5600
+	7025 5600 6700 5600
 Wire Wire Line
-	6125 6250 6125 5600
-Connection ~ 6125 5600
-$Comp
-L GND #PWR08
-U 1 1 5AA857E4
-P 5725 6250
-F 0 "#PWR08" H 5725 6000 50  0001 C CNN
-F 1 "GND" H 5725 6100 50  0000 C CNN
-F 2 "" H 5725 6250 50  0001 C CNN
-F 3 "" H 5725 6250 50  0001 C CNN
-	1    5725 6250
-	0    1    1    0   
-$EndComp
+	6500 5900 5450 5900
+Wire Wire Line
+	5450 5900 5450 5600
+Connection ~ 5450 5600
 $EndSCHEMATC
