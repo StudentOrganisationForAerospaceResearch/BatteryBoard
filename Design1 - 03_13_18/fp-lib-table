@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name GTB)(type KiCad)(uri C:/Users/tiger/Documents/PCB/GTB.pretty)(options "")(descr ""))
-  (lib (name BatCharge)(type KiCad)(uri "$(KIPRJMOD)/BatCharge.pretty")(options "")(descr ""))
-  (lib (name JackConnectors)(type Github)(uri https://github.com/imciner2/KiCad-Libraries/tree/master/modules/Connectors.pretty)(options "")(descr ""))
-  (lib (name BJCs)(type KiCad)(uri C:/Users/tiger/Documents/PCB/BatteryCharger/KiCad-Libraries-master/modules/Connectors.pretty)(options "")(descr ""))
-)
