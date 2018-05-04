@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\tiger\\Documents\\PCB\\Design3 - 04-03-18\\BatteryCharger.sch")
-    (date "2018-04-03 5:07:16 PM")
+    (source "C:/Users/tiger/Documents/PCB/Design3 - 04-03-18/BatteryCharger.sch")
+    (date "2018-05-04 11:21:15 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -77,7 +77,7 @@
       (tstamp 5A9AF155))
     (comp (ref J1)
       (value Conn_01x04_Male)
-      (footprint Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical)
+      (footprint SOAR_Library:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal)
       (libsource (lib conn) (part Conn_01x04_Male))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AC40877)))
@@ -180,10 +180,10 @@
   (libraries
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical BatCharge)
-      (uri "C:\\Users\\tiger\\Documents\\PCB\\Design3 - 04-03-18\\BatCharge.lib")))
+      (uri "C:\\Users\\tiger\\Documents\\PCB\\Design3 - 04-03-18\\BatCharge.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name "Net-(R2-Pad1)")
       (node (ref U1) (pin 7))

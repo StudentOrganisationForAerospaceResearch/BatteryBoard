@@ -506,7 +506,7 @@ U 1 1 5AC40877
 P 5225 6625
 F 0 "J1" H 5225 6825 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5225 6325 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5225 6625 50  0001 C CNN
+F 2 "SOAR_Library:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal" H 5225 6625 50  0001 C CNN
 F 3 "" H 5225 6625 50  0001 C CNN
 	1    5225 6625
 	1    0    0    -1  

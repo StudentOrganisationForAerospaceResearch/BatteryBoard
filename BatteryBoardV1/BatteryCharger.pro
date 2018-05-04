@@ -1,4 +1,4 @@
-update=2018-04-03 4:48:41 PM
+update=2018-05-04 11:18:44 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../Libraries/digikey-kicad-library/digikey-symbols;C:/Users/tiger/Documents/PCB/BatteryCharger;../Libraries/TerminalBlock_Phoenix.pretty
+LibDir=../Libraries/digikey-kicad-library/digikey-symbols;C:/Users/tiger/Documents/PCB/BatteryCharger;../Libraries/TerminalBlock_Phoenix.pretty;../Libraries/SOAR_Library.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
