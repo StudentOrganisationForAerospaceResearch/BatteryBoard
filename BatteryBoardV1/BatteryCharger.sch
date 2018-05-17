@@ -228,17 +228,6 @@ F 3 "" H 2150 4975 50  0001 C CNN
 	1    2150 4975
 	0    1    1    0   
 $EndComp
-$Comp
-L Q_NMOS_GSD Q1
-U 1 1 5A9AF155
-P 6525 5700
-F 0 "Q1" V 6850 5650 50  0000 L CNN
-F 1 "Q_NMOS_GSD" V 6750 5475 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6725 5800 50  0001 C CNN
-F 3 "" H 6525 5700 50  0001 C CNN
-	1    6525 5700
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 6475 4250
 NoConn ~ 5400 4250
 Text Notes 6300 4325 0    39   ~ 0
@@ -319,7 +308,7 @@ Wire Wire Line
 Connection ~ 4800 3750
 Connection ~ 6775 4125
 Wire Wire Line
-	6325 5600 5975 5600
+	5975 5600 7025 5600
 Wire Wire Line
 	4800 4125 4800 5600
 Wire Wire Line
@@ -342,14 +331,7 @@ Connection ~ 2050 3850
 Wire Wire Line
 	2325 4775 2150 4775
 Wire Wire Line
-	7025 4750 7025 5600
-Wire Wire Line
-	7025 5600 6725 5600
-Wire Wire Line
-	6525 5900 5475 5900
-Wire Wire Line
-	5475 5900 5475 5600
-Connection ~ 5475 5600
+	7025 5600 7025 4750
 Wire Notes Line
 	1425 3000 2425 3000
 Wire Notes Line
